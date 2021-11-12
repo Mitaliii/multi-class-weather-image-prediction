@@ -1,5 +1,6 @@
 # multi-class-weather-image-prediction
 Estimating image properties from visual content is a fundamental step of various computer vision studies. For example, estimating image scene labels facilitates image browsing and retrieval, and recognizing whether images were captured indoors or outdoors. As of now for this project we have just taken 4 types of weather (i.e. cloudy, rain, sunrise, sunshine) images and classified them using Convolution Neural Networks (CNN) and Support Vector Machine (SVM) as last layer of cnn.
+## [Dataset link](https://drive.google.com/drive/folders/1yW1DSVWOdaLXjWgijszeb83X7X7yiVtp?usp=sharing)
 ## Data cleaning
 In order to clean data it is more like 99% cleaning to 1% modeling. This is because a neural network needs images to be a standardized size, but the dataset used in this project is already clean though preprocessing steps like rescale, shear image, zoom range, horizontal flip are required. Steps in pre-processing data for this weather classification using image are done by: 
 ### (1) Rescale:
